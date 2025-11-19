@@ -1,7 +1,7 @@
 #include "fetch.h"
 
 int main(void) {
-	printf("\nProgram Compiles!\n");
+	welcome();
 
 	return 0;
 }

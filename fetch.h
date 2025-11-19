@@ -23,3 +23,4 @@ struct display {
 };
 
 // Function Prototypes (to be added later)
+void welcome();
