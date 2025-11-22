@@ -24,9 +24,9 @@ struct display {
 };
 
 // Function Prototypes
-void welcome();					// Welcomes the User to the Program
+void welcome();						// Welcomes the User to the Program
 int get_model(char *model); 				// Gets the Model Name of the Detected Display(s)
 int get_connection(char *connection, int isInternal);	// Gets the Connection Type (HDMI, DP, Internal)
-int getSetRes(char *setResolution);			// Gets the Set Resolution for Each Display
-int getMaxRes(char *maxResolution);			// Gets the Maximum Possible Resolution for Each Display
-int getRefRate(char *refreshRate);			// Gets the Refresh Rate of Each Display
+int set_res(char *setResolution);			// Gets the Set Resolution for Each Display
+int max_res(char *maxResolution);			// Gets the Maximum Possible Resolution for Each Display
+int ref_rate(char *refreshRate);			// Gets the Refresh Rate of Each Display
